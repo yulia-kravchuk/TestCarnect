@@ -1,0 +1,8 @@
+source "http://rubygems.org"
+gem "bundler"
+gem "rake"
+gem "cucumber"
+gem "rspec"
+gem "selenium"
+gem "selenium-webdriver"
+gem "win32-service"

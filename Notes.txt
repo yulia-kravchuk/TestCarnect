@@ -1,0 +1,16 @@
+Assumptions
+1. The prototype displays different results on the same search criteria. It is treated as expected behaviour for now.
+2. 
+
+Functinal issues
+1. Dropoff location field type is password, should be text.
+2. Date fields are missing (failing test exists).
+
+Other issues
+1. Dropoff location field name is PickupLocation, should be DropoffLocation.
+
+Usability
+1. Pickup/Dropoff Location can have show/select on map links. It's not clear how to enter address, city etc., probably can integrate with Google Maps API.
+2. Dates should have date pickers.
+3. It would be nice to have currency selector (to display everything in one currency), original prices can be displayed near converted ones. 
+4. Offer list can have different colours for odd and even lines. In general - some nice design is needed.
