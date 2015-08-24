@@ -1,16 +1,19 @@
 Assumptions
 1. The prototype displays different results on the same search criteria. It is treated as expected behaviour for now.
-2. 
+2. Total calculations are not verified because pickup/drropoff dates are not present.
 
 Functinal issues
-1. Dropoff location field type is password, should be text.
+1. Dropoff location field type is password, should be text. I did not create a test for it because the issue does not seem to appear again after fixing.
 2. Date fields are missing (failing test exists).
+3. Reservation confirmation: Pickup and dropoff dates are incorrect, dropoff address is not displayed.
 
 Other issues
 1. Dropoff location field name is PickupLocation, should be DropoffLocation.
+2. "#!/" in URL looks not nice, should be removed.
+3. Fiels should have limited length.
 
 Usability
-1. Pickup/Dropoff Location can have show/select on map links. It's not clear how to enter address, city etc., probably can integrate with Google Maps API.
-2. Dates should have date pickers.
+1. Search page: Pickup/Dropoff Location can have show/select on map links. It's not clear how to enter address, city etc., probably can integrate with Google Maps API.
+2. Dates should be present and have date pickers.
 3. It would be nice to have currency selector (to display everything in one currency), original prices can be displayed near converted ones. 
 4. Offer list can have different colours for odd and even lines. In general - some nice design is needed.
